@@ -19,4 +19,10 @@ public class WebController {
 		return "Hello!!!";
 	}
 	
+	//Written by another developer
+	@GetMapping("/hi")
+	public String sayHi() {
+		return "Hi!!!";
+	}
+	
 }
