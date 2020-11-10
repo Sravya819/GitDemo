@@ -16,7 +16,7 @@ public class WebController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello.....from Jenkins";
+		return "Hello!!!";
 	}
 	
 	//Written by another developer
